@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutfitAssistant", "OutfitAssistant\OutfitAssistant.csproj", "{39D31F81-2F52-40F7-BB42-039323B1852F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39D31F81-2F52-40F7-BB42-039323B1852F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D31F81-2F52-40F7-BB42-039323B1852F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D31F81-2F52-40F7-BB42-039323B1852F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D31F81-2F52-40F7-BB42-039323B1852F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C1DC88C-58B4-412C-814A-353B2E7C60A1}
+	EndGlobalSection
+EndGlobal
