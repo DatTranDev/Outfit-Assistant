@@ -1,4 +1,7 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿//Function: show the personalization form
+//document.addEventListener("DOMContentLoaded", function () {
+//    document.querySelector('.dropdown-item-personalization').addEventListener('click', function (event) {
+//        event.preventDefault();
+//        document.getElementById('personalizationForm').style.display = 'block';
+//    });
+//});

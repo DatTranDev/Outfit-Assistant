@@ -16,3 +16,26 @@ html {
 body {
   margin-bottom: 60px;
 }
+.marginL{
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.admin-setting{
+    margin-left:1050px;
+}
+.my-list-inline-item{
+    display:flex;
+    justify-items: left;
+}
+
+.mynavbar{
+    display:flex;
+    align-items: center;
+    flex-wrap: inherit;
+    align-items: center;
+}
+#personalizationForm {
+    margin-top: 100px;
+    width: 600px;
+}
