@@ -4,13 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewBag.Title - OutfitAssistant</title>
+    <!-- Bootstrap 4 CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
     <link rel="stylesheet" href="~/OutfitAssistant.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light fixed-top bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light fixed-top bg-white border-bottom box-shadow mb-3" style="background-color: #e3f2fd;">
             <div class="mynavbar">
                 <iconify-icon  icon="icon-park-twotone:clothes-hoodie" witdh="25" height="25" class="marginL" ></iconify-icon>
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Outfit Assistant</a>
@@ -49,16 +52,26 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-lg">
         <main role="main" >
-            @RenderBody()          
-            
+            <div class="row">
+                <div class="col-8">
+                    @RenderBody()
+                </div>
+                <div class="col-4">
+                   @*  Chat bot region *@
+                </div>
+            </div>                    
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
         
     </footer>
+    <!-- jQuery JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <!-- Bootstrap JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js'></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
