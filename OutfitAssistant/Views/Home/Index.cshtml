@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<Product>
+@{  
     ViewData["Title"] = "Home Page";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -7,7 +8,7 @@
     <!-- Nav tabs -->
     <ul class="nav nav-tabs nav-justified" role="tablist">
         <div class="slider"></div>
-        <li class="nav-item">
+        <li class="nav-item">   
             <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All Product</a>
         </li>
         <li class="nav-item">
@@ -21,7 +22,51 @@
     <!-- Tab panes -->
     <div class="tab-content">
         <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
-            All Product
+            @* All Product *@
+            <div class="list-prouct">   
+                <div class="">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        @foreach (var item in Model)
+                        {
+                            <div class="col">
+                                <div data-url="@item.Url" class="product-card shadow-sm">
+                                    <span class="img-span">
+                                        <img class="card-img-top" src="@item.Images" />
+                                    </span>
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="name-span">
+                                                <p class="card-name">@item.Name</p>
+                                            </div>
+
+                                            <div class="btn-group group">
+                                                <iconify-icon  icon="material-symbols:info-outline" width="20" height="20" style="margin-right: 5px; cursor: pointer;"></iconify-icon>
+                                                <iconify-icon icon="pepicons-pop:cart" width="20" height="20"></iconify-icon>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a class="card-title">@item.Price $</a>
+                                            <div class="d-flex justify-content-md-between group">
+                                                @for (int i = 1; i <= Math.Round(item.AvgRating); i++)
+                                                {
+                                                    <iconify-icon icon="ic:outline-star" width="20" height="20"></iconify-icon>                                                    
+                                                }
+                                                @for (int i = 1; i <= 5 - Math.Round(item.AvgRating); i++)
+                                                {
+                                                    <iconify-icon icon="mdi:star-outline" width="20" height="20"></iconify-icon>                                                    
+                                                }
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                       
+                        }
+                       
+                        
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="tab-pane fade" id="trend" role="tabpanel" aria-labelledby="trend-tab">
             Trending

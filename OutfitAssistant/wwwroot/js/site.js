@@ -31,7 +31,7 @@ const chatbox = document.querySelector(".chatbox");
 const chatbotToggler = document.querySelector(".chatbot-toggler");
 
 let userMessage;
-const API_KEY = "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";
+const API_KEY = "";
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
@@ -98,3 +98,19 @@ chatInput.addEventListener("keydown", (e) => {
 
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
 sendChatBtn.addEventListener("click", handleChat);
+
+//Product Region
+
+const productCards = document.querySelectorAll('.product-card');
+function handleCardClick(event) {
+    const url = event.currentTarget.getAttribute('data-url');
+
+    if (url) {
+        window.location.href = url;
+    }
+}
+
+// Attach click event listeners to each cart icon
+productCards.forEach(card => {
+    card.addEventListener('click', handleCardClick);
+});

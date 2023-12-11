@@ -1,4 +1,5 @@
 html {
+    height:auto;
   font-size: 14px;
 }
 
@@ -40,15 +41,15 @@ body {
     position: fixed;
     top: 100px;
     left: 100px;
-    width: 600px;
+    width: 50%;
 }
 
 .tile {
-    width: 80%;
+    width: 90%;
     margin: 60px auto;
 }
 #tile-1 .tab-pane {
-    padding: 15px;
+    padding: 15px 0px;
     height: 80px;
 }
 #tile-1 .nav-tabs {
@@ -89,6 +90,43 @@ body {
     border: none !important;
     color: #39bcd3 !important;
 }
+/*List product CSS*/
+.list-product{
+    margin-left: 5px;
+}
+.product-card{
+    cursor:pointer;
+}
+.link-label{
+    margin:0;
+    padding:0;
+    text-underline-offset:unset;
+}
+.card-name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Limiting to 2 lines */
+    width: 80%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-card .group{
+    margin-bottom: 1rem;
+}
+.img-span{
+    display:block;
+    height:290px;
+    overflow: hidden;
+    padding:0;
+    margin:0;
+}
+.list-product .name-span{
+    width:150%;
+    display:inline-block;
+    height: 45px;
+}
+
 
 /*Chatbot CSS*/
 
