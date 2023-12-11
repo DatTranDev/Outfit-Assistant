@@ -10,18 +10,32 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OutfitAssistant
 build_property.RootNamespace = OutfitAssistant
 build_property.ProjectDir = C:\Users\DAT\Desktop\Workspace\Outfit Assistant\OutfitAssistant\OutfitAssistant\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\DAT\Desktop\Workspace\Outfit Assistant\OutfitAssistant\OutfitAssistant
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/DAT/Desktop/Workspace/Outfit Assistant/OutfitAssistant/OutfitAssistant/Views/AppUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DAT/Desktop/Workspace/Outfit Assistant/OutfitAssistant/OutfitAssistant/Views/AppUser/Personalization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwVXNlclxQZXJzb25hbGl6YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DAT/Desktop/Workspace/Outfit Assistant/OutfitAssistant/OutfitAssistant/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DAT/Desktop/Workspace/Outfit Assistant/OutfitAssistant/OutfitAssistant/Views/Home/Personalization.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXJzb25hbGl6YXRpb24uY3NodG1s
+[C:/Users/DAT/Desktop/Workspace/Outfit Assistant/OutfitAssistant/OutfitAssistant/Views/Product/AllProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBbGxQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DAT/Desktop/Workspace/Outfit Assistant/OutfitAssistant/OutfitAssistant/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DAT/Desktop/Workspace/Outfit Assistant/OutfitAssistant/OutfitAssistant/Views/Shared/_ValidationScriptsPartial.cshtml]
